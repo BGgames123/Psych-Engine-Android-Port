@@ -901,9 +901,9 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
         
-        var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Port By Zardy aka BG9"), 24);
+        var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("funni dab"), 24);
         creditTxt.scrollFactor.set();
-        creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.ORANGE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         creditTxt.borderColor = FlxColor.BLACK;
         creditTxt.borderSize = 3;
         creditTxt.borderStyle = FlxTextBorderStyle.OUTLINE;
